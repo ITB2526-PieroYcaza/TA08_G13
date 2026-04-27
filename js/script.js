@@ -35,6 +35,7 @@ function calcular() {
   let limpiezaBase = datos.facturas.limpieza
     .reduce((a, f) => a + f.total, 0);
 
+
   let energia = energiaBase * factor;
   let agua = aguaBase * factor;
   let consumibles = consumiblesBase * factor;
