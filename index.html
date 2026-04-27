@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Título de mi Página</title>
+<meta charset="UTF-8">
+<title>Calculadora de Sostenibilidad</title>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
+
 <body>
-    <h1>¡Hola, mundo!</h1>
-    <p>Esta es mi primera página web sencilla.</p>
+
+<h1>🌱 Calculadora de Sostenibilidad</h1>
+
+<div class="controls">
+    <input type="number" id="year" value="2025">
+    <button onclick="calcular()">Calcular</button>
+</div>
+
+<div class="ahorro">
+    <h3>💡 Medidas de ahorro</h3>
+    <label><input type="checkbox" id="led"> Iluminación LED (-20%)</label>
+    <label><input type="checkbox" id="standby"> Standby (-10%)</label>
+    <label><input type="checkbox" id="agua-check"> Agua (-15%)</label>
+    <label><input type="checkbox" id="papel"> Consumibles (-25%)</label>
+    <label><input type="checkbox" id="limpieza-check"> Limpieza (-15%)</label>
+</div>
+
+<div class="grid">
+    <div class="card energia">
+        <h2>⚡ Energía</h2>
+        <p id="energia"></p>
+        <small id="energiaDiff"></small>
+    </div>
+
+    <div class="card agua">
+        <h2>💧 Agua</h2>
+        <p id="aguaResultado"></p>
+        <small id="aguaDiff"></small>
+    </div>
+
+    <div class="card consumibles">
+        <h2>📦 Consumibles</h2>
+        <p id="consumibles"></p>
+        <small id="consumiblesDiff"></small>
+    </div>
+
+    <div class="card limpieza">
+        <h2>🧹 Limpieza</h2>
+        <p id="limpiezaResultado"></p>
+        <small id="limpiezaDiff"></small>
+    </div>
+</div>
+
+<div class="chart-box">
+    <h2>📊 Consumo general</h2>
+    <canvas id="grafico1"></canvas>
+</div>
+
+<script src="./js/script.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,125 @@
+{
+  "projecte": "ITB Leaks - Dataset TOTAL v2",
+  "institucio": "Institut Tecnologic de Barcelona",
+
+  "energia_fotovoltaica": {
+    "potencia_kw": 30.94,
+    "registros": [
+      { "fecha": "2025-01-01", "generado": 42.56, "exportado": 2.62, "importado": 117.53, "consumo": 157.47, "autoconsumo": 93.84 },
+      { "fecha": "2025-01-02", "generado": 48.86, "exportado": 3.43, "importado": 114.12, "consumo": 159.55, "autoconsumo": 92.98 },
+      { "fecha": "2025-01-03", "generado": 36.48, "exportado": 0.22, "importado": 153.24, "consumo": 189.50, "autoconsumo": 99.39 },
+      { "fecha": "2025-01-08", "generado": 47.81, "exportado": 0.00, "importado": 419.79, "consumo": 467.60, "autoconsumo": 100.0 },
+      { "fecha": "2025-01-09", "generado": 52.03, "exportado": 0.00, "importado": 409.75, "consumo": 461.78, "autoconsumo": 100.0 },
+      { "fecha": "2025-01-10", "generado": 49.33, "exportado": 0.00, "importado": 376.64, "consumo": 425.97, "autoconsumo": 100.0 },
+      { "fecha": "2025-01-11", "generado": 40.03, "exportado": 1.49, "importado": 162.86, "consumo": 201.40, "autoconsumo": 96.28 },
+      { "fecha": "2025-01-12", "generado": 57.00, "exportado": 1.87, "importado": 159.58, "consumo": 214.74, "autoconsumo": 96.72 },
+      { "fecha": "2025-01-13", "generado": 55.89, "exportado": 0.00, "importado": 435.11, "consumo": 491.00, "autoconsumo": 100.0 },
+      { "fecha": "2025-01-14", "generado": 57.49, "exportado": 0.00, "importado": 426.80, "consumo": 484.29, "autoconsumo": 100.0 },
+      { "fecha": "2025-01-15", "generado": 55.58, "exportado": 0.00, "importado": 424.17, "consumo": 479.75, "autoconsumo": 100.0 },
+      { "fecha": "2025-01-16", "generado": 40.94, "exportado": 0.00, "importado": 449.86, "consumo": 490.80, "autoconsumo": 100.0 },
+      { "fecha": "2025-01-17", "generado": 52.90, "exportado": 0.00, "importado": 377.18, "consumo": 430.08, "autoconsumo": 100.0 },
+      { "fecha": "2025-01-18", "generado": 56.17, "exportado": 3.17, "importado": 145.59, "consumo": 198.59, "autoconsumo": 94.36 },
+      { "fecha": "2025-01-19", "generado": 35.53, "exportado": 0.20, "importado": 166.83, "consumo": 202.16, "autoconsumo": 99.44 },
+      { "fecha": "2025-01-20", "generado": 32.00, "exportado": 0.00, "importado": 456.39, "consumo": 488.39, "autoconsumo": 100.0 },
+      { "fecha": "2025-01-21", "generado": 30.24, "exportado": 0.00, "importado": 470.10, "consumo": 500.34, "autoconsumo": 100.0 },
+      { "fecha": "2025-01-22", "generado": 5.87, "exportado": 0.00, "importado": 159.68, "consumo": 165.55, "autoconsumo": 100.0 }
+    ]
+  },
+
+  "facturas": {
+    "mantenimiento": [
+      {
+        "id": "F041",
+        "fecha": "05/07/2024",
+        "concepto": "Reparación urgente aire acondicionado",
+        "base": 288.00,
+        "iva": 60.48,
+        "total": 348.48
+      },
+      {
+        "id": "F046",
+        "fecha": "23/05/2024",
+        "conceptos": [
+          { "desc": "Instalación eléctrica industrial", "importe": 1986.00 },
+          { "desc": "Material conexiones", "importe": 119.80 }
+        ],
+        "total": 2548.02
+      }
+    ],
+
+    "limpieza": [
+      {
+        "id": "F056",
+        "conceptos": [
+          { "desc": "Limpieza jardín", "importe": 668.80 },
+          { "desc": "Transporte", "importe": 208.60 },
+          { "desc": "Horas especialistas", "importe": -501.60 }
+        ],
+        "total": 375.80
+      }
+    ],
+
+    "material": [
+      {
+        "id": "F035",
+        "fecha": "20/06/2024",
+        "items": [
+          { "producto": "Papel secamanos", "total": 182.50 },
+          { "producto": "Bolsas industriales", "total": 30.20 },
+          { "producto": "Bolsas pequeñas", "total": 33.90 },
+          { "producto": "Papel wc industrial", "total": 256.70 },
+          { "producto": "Papel secamanos extra", "total": 91.25 },
+          { "producto": "Jabón manos", "total": 25.50 }
+        ],
+        "total": 620.05
+      },
+      {
+        "id": "F327",
+        "concepto": "Recambio marcador pizarra",
+        "total": 34.36
+      }
+    ],
+
+    "comunicaciones": [
+      {
+        "proveedor": "DIGI",
+        "mes": "05/2024",
+        "base": 24.79,
+        "iva": 5.21,
+        "total": 30.00
+      },
+      {
+        "proveedor": "O2",
+        "mes": "03/2024",
+        "base": 41.32,
+        "iva": 8.68,
+        "total": 50.00
+      }
+    ]
+  },
+
+  "indicadores_moviles": [
+    { "fecha": "15/11/24", "grupo": "ASIXC1A", "moviles": 3, "alumnos": 20, "porcentaje": 15.0 },
+    { "fecha": "21/11/24", "grupo": "ASIXC1A", "moviles": 7, "alumnos": 19, "porcentaje": 36.84 },
+    { "fecha": "19/12/24", "grupo": "ASIXC1A", "moviles": 9.5, "alumnos": 18, "porcentaje": 52.78 },
+    { "fecha": "16/01/25", "grupo": "ASIXC1A", "moviles": 8, "alumnos": 18, "porcentaje": 44.44 },
+
+    { "fecha": "16/11/24", "grupo": "ASIXC1B", "moviles": 6, "alumnos": 21, "porcentaje": 28.57 },
+    { "fecha": "03/12/24", "grupo": "ASIXC1B", "moviles": 1, "alumnos": 21, "porcentaje": 4.76 },
+    { "fecha": "17/01/25", "grupo": "ASIXC1B", "moviles": 4, "alumnos": 17, "porcentaje": 23.53 },
+
+    { "fecha": "18/11/24", "grupo": "ASIXC1C", "moviles": 11, "alumnos": 18, "porcentaje": 61.11 },
+    { "fecha": "26/11/24", "grupo": "ASIXC1C", "moviles": 14.5, "alumnos": 18, "porcentaje": 80.56 },
+    { "fecha": "20/01/25", "grupo": "ASIXC1C", "moviles": 11, "alumnos": 16, "porcentaje": 68.75 }
+  ],
+
+  "indicadores_globales": {
+    "gasto_total": 6506.71,
+    "gasto_mantenimiento": 2896.50,
+    "gasto_limpieza": 375.80,
+    "gasto_material": 654.41,
+    "gasto_comunicaciones": 80.00,
+    "consumo_total_kwh": 6000,
+    "consumo_total_agua_litros": 142000
+  }
+}
