@@ -36,7 +36,7 @@ function calcular() {
     .reduce((a, f) => a + f.total, 0);
 
   let energia = energiaBase * factor;
-  let agua = aguaBase;
+  let agua = aguaBase * factor;
   let consumibles = consumiblesBase * factor;
   let limpieza = limpiezaBase * factor;
 
